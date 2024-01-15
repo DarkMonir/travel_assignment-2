@@ -1,6 +1,54 @@
 /* Shared styles */
-*{
-    padding: 0px;
-    margin: 0px;
-    max-width: 1440px;
+* {
+  padding: 0px;
+  margin: 0px;
+  max-width: 1440px;
+}
+
+/* header styles */
+header {
+  background-color: white;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 130px;
+}
+/* .nav svg{
+    width: 48px;
+height: 56.008px;
+padding-right: 0;
+} */
+.nav h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 800;
+
+}
+.nav ul {
+  display: flex;
+  padding-top: 14px;
+  padding-right: 30px;
+
+}
+.nav li {
+  list-style: none;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 0px 45px;
+}
+.nav a {
+  text-decoration: none;
+  color: #424247;
+}
+.banner-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+   url(../Images/Group\ 13\ \(1\)\ \(1\).png)
 }
