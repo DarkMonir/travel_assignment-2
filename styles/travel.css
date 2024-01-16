@@ -177,8 +177,190 @@ background: #FFF;
 border-color: none;
 } */
 
+/* popular tours styles*/
+.popular-tours {
+  display: flex;
+  padding: 50px 130px;
+}
+.popular-desciption {
+  position: relative;
+  right: 15px;
+}
+.popular-tours h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+.popular-tours p {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  /* padding: 24px; */
+  margin: 20px;
+}
+
+.popular-tours ul {
+  margin-left: 50px;
+}
+
+.popular-tours li {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding: 16px 5px;
+}
+.popular-tours button {
+  border: none;
+  position: relative;
+  left: 6px;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.popular-img {
+  border-radius: 16px;
+  width: 540px;
+  height: 550px;
+  flex-shrink: 0;
+  position: relative;
+  left: 466px;
+}
+
+/* Your Destination text */
+
+.destination-text {
+  text-align: center;
+  padding: 50px 130px;
+  margin-bottom: 20px;
+}
+.destination-text h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+.destination-text p {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.destination-images {
+  /* padding: 50px; */
+  /* margin-left: 260px; */
+  /* justify-content: center; */
+  position: relative;
+  /* left: 300px; */
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.row {
+  display: flex;
+  gap: 22px;
+  margin: 25px;
+}
+
+/* Choose container styles */
+.choose-container{
+  /* margin-top: 20px; */
+  padding-top: 40px;
+}
+.choose-text h3 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+.choose-text p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding-bottom: 20px;
+}
+.choose-reason{
+  margin-top: 20px;
+}
+.reason-row{
+  display: flex;
+  justify-content: center;
+}
+.reason1{
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  width: 573px;
+height: 250px;
+flex-shrink: 0;
+padding-top: 20px;
+padding-left: 30px;
+margin-left: 20px;
+}
+.reason1 h4{
+  padding-top: 35px;
+}
+.reason1 p{
+  padding-top: 10px;
+}
+
+.reason2{
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  width: 573px;
+height: 250px;
+flex-shrink: 0;
+padding-top: 20px;
+padding-left: 30px;
+margin-left: 20px;
+}
+.reason2 h4{
+  padding-top: 35px;
+}
+.reason2 p{
+  padding-top: 10px;
+}
+
+.reason3{
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+  width: 573px;
+height: 250px;
+flex-shrink: 0;
+padding-top: 20px;
+padding-left: 30px;
+margin-left: 20px;
+margin-top: 20px;
+margin-bottom: 30px;
+position: relative;
+left: 650px;
+}
+.reason3 h4{
+  padding-top: 35px;
+}
+.reason3 p{
+  padding-top: 10px;
+}
+
+
 /* Footer styles */
 footer {
+  background-color: rgba(19, 19, 24, 0.05);
   text-align: center;
 }
 footer h3 {
@@ -196,21 +378,21 @@ footer svg {
 footer p {
   padding: 15px 330px 30px 330px;
 }
-.socials{
+.socials {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 16px 0 48px 0;
 }
-.socials li{
+.socials li {
   margin: 0 10px;
 }
-.socials a{
+.socials a {
   text-decoration: none;
   color: rgba(19, 19, 24, 1);
 }
-.socials a i{
+.socials a i {
   font-size: 20px;
 }
 .footer-bottom {
@@ -219,41 +401,6 @@ footer p {
   font-size: 16px;
   font-weight: 300;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Responsive Design */
 
@@ -278,13 +425,13 @@ footer p {
     width: 100%;
     padding: 10px;
   }
-  footer p{
+  footer p {
     padding: 20px 20px;
   }
-  .socials{
+  .socials {
     flex-direction: column;
   }
-  .socials li{
+  .socials li {
     margin: 10px;
   }
 }
