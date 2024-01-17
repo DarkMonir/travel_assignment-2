@@ -335,21 +335,16 @@ margin-top: 40px;
   line-height: 26px; /* 162.5% */
 }
 .destination-images {
-  /* padding: 50px; */
-  /* margin-left: 260px; */
-  /* justify-content: center; */
+  
   position: relative;
   border: 1px solid orangered;
   width: 73%;
-  /* margin: 50px 130px; */
+ 
   margin-left: 130px;
   
   padding-left: 200px;
   border-radius: 16px;
-  /* left: 300px; */
-  /* align-items: center;
-  width: 100%;
-  height: 100%; */
+  
 }
 .row {
   display: flex;
@@ -531,6 +526,125 @@ left: 62%;
 .reason3 p {
   padding-top: 10px;
 }
+
+
+/* deals and discount */
+
+.deal-discount-container{
+  margin: 90px 130px;
+  text-align: center;
+}
+.deal-text{
+  margin: 50px;
+}
+.deal-text h3{
+  color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+.deal-text p{
+  color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.deals-images{
+  position: relative;
+}
+.images-des{
+  border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 389px;
+flex-shrink: 0;
+position: absolute;
+top: 12%;
+left: 48%;
+}
+.images-des2{
+  border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 389px;
+flex-shrink: 0;
+position: absolute;
+top: 12%;
+left: 16%;
+}
+.images-des p{
+  padding-top: 40px;
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 552px;
+}
+.images-des2 p{
+  padding-top: 40px;
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 552px;
+}
+.images-des h4{
+  color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 20px;
+}
+.images-des2 h4{
+  color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 20px;
+}
+.images-des h6{
+  color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 20px;
+}
+.images-des2 h6{
+  color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 20px;
+}
+.deal-discount-container .btn-primary{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
 
 /* get lost styles */
 .get-lost-container {
