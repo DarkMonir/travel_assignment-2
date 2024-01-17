@@ -14,6 +14,21 @@
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+.btn-primary {
+  border-radius: 8px;
+  background: #ff5400;
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 
 /* header styles */
 header {
@@ -142,13 +157,7 @@ header {
   align-items: flex-start;
   gap: 24px;
 }
-.btn-primary {
-  border-radius: 8px;
-  background: #ff5400;
-  width: 174px;
-  height: 52px;
-  flex-shrink: 0;
-}
+
 .btn-primary svg {
   width: 24px;
   height: 24px;
@@ -271,7 +280,7 @@ border-color: none;
 }
 
 /* Choose container styles */
-.choose-container{
+.choose-container {
   /* margin-top: 20px; */
   padding-top: 40px;
 }
@@ -292,171 +301,298 @@ border-color: none;
   line-height: 26px; /* 162.5% */
   padding-bottom: 20px;
 }
-.choose-reason{
+.choose-reason {
   margin-top: 20px;
 }
-.reason-row{
+.reason-row {
   display: flex;
   justify-content: center;
 }
-.reason1{
+.reason1 {
   border-radius: 16px;
-  border: 1px solid rgba(251, 181, 99, 0.20);
+  border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
   width: 573px;
-height: 250px;
-flex-shrink: 0;
-padding-top: 20px;
-padding-left: 30px;
-margin-left: 20px;
+  height: 250px;
+  flex-shrink: 0;
+  padding-top: 20px;
+  padding-left: 30px;
+  margin-left: 20px;
 }
-.reason1 h4{
+.reason1 h4 {
   padding-top: 35px;
 }
-.reason1 p{
+.reason1 p {
   padding-top: 10px;
 }
 
-.reason2{
+.reason2 {
   border-radius: 16px;
-  border: 1px solid rgba(41, 206, 246, 0.20);
+  border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
   width: 573px;
-height: 250px;
-flex-shrink: 0;
-padding-top: 20px;
-padding-left: 30px;
-margin-left: 20px;
+  height: 250px;
+  flex-shrink: 0;
+  padding-top: 20px;
+  padding-left: 30px;
+  margin-left: 20px;
 }
-.reason2 h4{
+.reason2 h4 {
   padding-top: 35px;
 }
-.reason2 p{
+.reason2 p {
   padding-top: 10px;
 }
 
-.reason3{
+.reason3 {
   border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
   width: 573px;
-height: 250px;
-flex-shrink: 0;
-padding-top: 20px;
-padding-left: 30px;
-margin-left: 20px;
-margin-top: 20px;
-margin-bottom: 30px;
-position: relative;
-left: 650px;
+  height: 250px;
+  flex-shrink: 0;
+  padding-top: 20px;
+  padding-left: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 650px;
 }
-.reason3 h4{
+.reason3 h4 {
   padding-top: 35px;
 }
-.reason3 p{
+.reason3 p {
   padding-top: 10px;
 }
 
-
-/* newsletter */
-.newsletter-container{
+/* get lost styles */
+.get-lost-container {
   display: flex;
-  margin: 10px 130px;
-  gap: 150px;
+  margin: 0 130px;
+  justify-content: space-between;
 }
-.newsletter-text{
-  border-radius: 16px;
-border: 1px solid #FF5400;
-width: 474px;
-height: 422px;
-flex-shrink: 0;
-padding-top: 40px;
-padding-left: 40px;
-margin-left: 10px;
-}
-.newsletter-text h4{
+.getlost-text h3 {
   color: #131318;
-font-family: Mulish;
-font-size: 24px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px; /* 150% */
 }
-.newsletter-text p{
+.getlost-text p{
   color: #5A5A5D;
 font-family: Mulish;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
+padding-top: 25px;
 }
-.input{
+
+.getlost-text ul{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  padding-top: 25px;
+}
+.getlost-text li{
+  padding-top: 15px;
+  margin-left: 15px;
+}
+.getlost-text  button{
+  margin-top: 30px;
+}
+.getlostimage img{
+  /* position: relative; */
+  padding-right: 65px;
+  
+}
+
+/* .svg p{
+  position: absolute;
+  left: 10px;
+} */
+
+/* next trip */
+.next-trip{
+  margin: 50px 137px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  width: 80%;
+  height: 322px;
+  flex-shrink: 0;
+  padding-top: 40px;
+  padding-left: 40px;
+  /* margin-left: 10px; */
+}
+.trip-description{
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+.trip-heading{
+  text-align: center;
+}
+.trip-heading h3{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+}
+.trip-heading h4{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.description1, 
+.description2, 
+.description3 p{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 16px; 162.5% */
+  /* padding-top: 25px; */
+}
+.description1 h6{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.description2 h6{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.description3 h6{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.description3{
+  padding-right: 30px;
+}
+
+
+
+
+/* newsletter */
+.newsletter-container {
+  display: flex;
+  margin: 20px 130px;
+  gap: 150px;
+}
+.newsletter-text {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  width: 474px;
+  height: 422px;
+  flex-shrink: 0;
+  padding-top: 40px;
+  padding-left: 40px;
+  margin-left: 10px;
+}
+.newsletter-text h4 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.newsletter-text p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.input {
   margin-top: 40px;
 }
-.newsletter-text input{
+.newsletter-text input {
   border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-width: 393px;
-height: 42px;
-flex-shrink: 0;
-margin-top: 16px;
-border: none;
-color: rgba(19, 19, 24, 0.30);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  background: rgba(19, 19, 24, 0.05);
+  width: 393px;
+  height: 42px;
+  flex-shrink: 0;
+  margin-top: 16px;
+  border: none;
+  color: rgba(19, 19, 24, 0.3);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.newsletter-text button{
+.newsletter-text button {
   border-radius: 8px;
-background: #FF5400;
-width: 393px;
-height: 42px;
-flex-shrink: 0;
-color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 20px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin-top: 25px;
-border: none;
+  background: #ff5400;
+  width: 393px;
+  height: 42px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 25px;
+  border: none;
 }
-.discount-new{
+.discount-new {
   border-radius: 16px;
-background: #FF5400;
-width: 324px;
-height: 120px;
-transform: rotate(-19.628deg);
-flex-shrink: 0;
-text-align: center;
-position: absolute;
-left: 1250px;
-/* bottom: 1150px; */
-
+  background: #ff5400;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  text-align: center;
+  position: absolute;
+  left: 1150px;
+  /* top: 20px; */
+  /* padding: 200px; */
+  /* bottom: 1150px; */
 }
-.discount-new p{
-  color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-top: 23px;
-
+.discount-new p {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 23px;
 }
-.discount-new h5{
-  color: #FFF;
-font-family: Mulish;
-font-size: 32px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+.discount-new h5 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
-
 
 /* Footer styles */
 footer {
